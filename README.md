@@ -1,6 +1,4 @@
-# almond-repro — code and artefacts for
-
-**Timing-Feasibility Constraints for LEO Handover: Attribution, Calibration and Audit in a Digital Twin**
+# almond-repro — code and artefacts for **Timing-Feasibility Constraints for LEO Handover: Attribution, Calibration and Audit in a Digital Twin**
 
 This archive reproduces every number in the paper and its supplementary material. It is organised in
 three layers:
