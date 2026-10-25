@@ -1,0 +1,568 @@
+{
+  "chunks": 16,
+  "chunk_steps": 15,
+  "drift_chunk": 7,
+  "drift_s": 2.0,
+  "runs": {
+    "fixed": {
+      "mode": "fixed",
+      "chunks": [
+        {
+          "chunk": 0,
+          "hsr": 100.0,
+          "late": 0.0,
+          "n": 18,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 1,
+          "hsr": 100.0,
+          "late": 0.0,
+          "n": 52,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 2,
+          "hsr": 94.28571428571429,
+          "late": 0.0,
+          "n": 70,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 3,
+          "hsr": 94.25287356321839,
+          "late": 0.0,
+          "n": 87,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 4,
+          "hsr": 93.61702127659575,
+          "late": 0.0,
+          "n": 94,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 5,
+          "hsr": 99.00990099009901,
+          "late": 0.0,
+          "n": 101,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 6,
+          "hsr": 89.33333333333333,
+          "late": 0.0,
+          "n": 75,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 7,
+          "hsr": 98.41269841269842,
+          "late": 0.0,
+          "n": 63,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 8,
+          "hsr": 87.71929824561404,
+          "late": 5.2631578947368425,
+          "n": 57,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 9,
+          "hsr": 91.52542372881356,
+          "late": 0.0,
+          "n": 59,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 10,
+          "hsr": 94.02985074626865,
+          "late": 0.0,
+          "n": 67,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 11,
+          "hsr": 79.71014492753623,
+          "late": 7.246376811594203,
+          "n": 69,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 12,
+          "hsr": 100.0,
+          "late": 0.0,
+          "n": 49,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 13,
+          "hsr": 85.71428571428571,
+          "late": 7.142857142857143,
+          "n": 56,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 14,
+          "hsr": 95.89041095890411,
+          "late": 0.0,
+          "n": 73,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 15,
+          "hsr": 82.8125,
+          "late": 14.0625,
+          "n": 64,
+          "mag": 18.0,
+          "probing": false
+        }
+      ],
+      "hsr_pre": 95.78554906413726,
+      "hsr_post": 90.64606808156898,
+      "detection_delay": null,
+      "probe_polar_attempts": 0,
+      "probe_chunks": [],
+      "final_mag": 18.0
+    },
+    "ewma": {
+      "mode": "ewma",
+      "chunks": [
+        {
+          "chunk": 0,
+          "hsr": 100.0,
+          "late": 0.0,
+          "n": 18,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 1,
+          "hsr": 100.0,
+          "late": 0.0,
+          "n": 52,
+          "mag": 18.3,
+          "probing": false
+        },
+        {
+          "chunk": 2,
+          "hsr": 94.28571428571429,
+          "late": 0.0,
+          "n": 70,
+          "mag": 18.555,
+          "probing": false
+        },
+        {
+          "chunk": 3,
+          "hsr": 94.25287356321839,
+          "late": 0.0,
+          "n": 87,
+          "mag": 18.77175,
+          "probing": false
+        },
+        {
+          "chunk": 4,
+          "hsr": 93.61702127659575,
+          "late": 0.0,
+          "n": 94,
+          "mag": 18.9559875,
+          "probing": false
+        },
+        {
+          "chunk": 5,
+          "hsr": 99.00990099009901,
+          "late": 0.0,
+          "n": 101,
+          "mag": 19.112589375,
+          "probing": false
+        },
+        {
+          "chunk": 6,
+          "hsr": 89.33333333333333,
+          "late": 0.0,
+          "n": 75,
+          "mag": 19.545700968749998,
+          "probing": false
+        },
+        {
+          "chunk": 7,
+          "hsr": 98.41269841269842,
+          "late": 0.0,
+          "n": 63,
+          "mag": 19.913845823437498,
+          "probing": false
+        },
+        {
+          "chunk": 8,
+          "hsr": 93.65079365079364,
+          "late": 0.0,
+          "n": 63,
+          "mag": 20.226768949921873,
+          "probing": false
+        },
+        {
+          "chunk": 9,
+          "hsr": 91.52542372881356,
+          "late": 0.0,
+          "n": 59,
+          "mag": 20.492753607433592,
+          "probing": false
+        },
+        {
+          "chunk": 10,
+          "hsr": 94.02985074626865,
+          "late": 0.0,
+          "n": 67,
+          "mag": 20.718840566318555,
+          "probing": false
+        },
+        {
+          "chunk": 11,
+          "hsr": 87.83783783783784,
+          "late": 0.0,
+          "n": 74,
+          "mag": 20.91101448137077,
+          "probing": false
+        },
+        {
+          "chunk": 12,
+          "hsr": 100.0,
+          "late": 0.0,
+          "n": 53,
+          "mag": 21.074362309165153,
+          "probing": false
+        },
+        {
+          "chunk": 13,
+          "hsr": 93.84615384615384,
+          "late": 0.0,
+          "n": 65,
+          "mag": 21.51320796279038,
+          "probing": false
+        },
+        {
+          "chunk": 14,
+          "hsr": 95.89041095890411,
+          "late": 0.0,
+          "n": 73,
+          "mag": 21.886226768371824,
+          "probing": false
+        },
+        {
+          "chunk": 15,
+          "hsr": 87.17948717948718,
+          "late": 0.0,
+          "n": 78,
+          "mag": 22.20329275311605,
+          "probing": false
+        }
+      ],
+      "hsr_pre": 95.78554906413726,
+      "hsr_post": 93.59696181788414,
+      "detection_delay": null,
+      "probe_polar_attempts": 0,
+      "probe_chunks": [],
+      "final_mag": 18.0
+    },
+    "oracle": {
+      "mode": "oracle",
+      "chunks": [
+        {
+          "chunk": 0,
+          "hsr": 100.0,
+          "late": 0.0,
+          "n": 18,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 1,
+          "hsr": 100.0,
+          "late": 0.0,
+          "n": 52,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 2,
+          "hsr": 94.28571428571429,
+          "late": 0.0,
+          "n": 70,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 3,
+          "hsr": 94.25287356321839,
+          "late": 0.0,
+          "n": 87,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 4,
+          "hsr": 93.61702127659575,
+          "late": 0.0,
+          "n": 94,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 5,
+          "hsr": 99.00990099009901,
+          "late": 0.0,
+          "n": 101,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 6,
+          "hsr": 89.33333333333333,
+          "late": 0.0,
+          "n": 75,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 7,
+          "hsr": 98.41269841269842,
+          "late": 0.0,
+          "n": 63,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 8,
+          "hsr": 93.65079365079364,
+          "late": 0.0,
+          "n": 63,
+          "mag": 20.0,
+          "probing": false
+        },
+        {
+          "chunk": 9,
+          "hsr": 91.52542372881356,
+          "late": 0.0,
+          "n": 59,
+          "mag": 20.0,
+          "probing": false
+        },
+        {
+          "chunk": 10,
+          "hsr": 94.02985074626865,
+          "late": 0.0,
+          "n": 67,
+          "mag": 20.0,
+          "probing": false
+        },
+        {
+          "chunk": 11,
+          "hsr": 87.83783783783784,
+          "late": 0.0,
+          "n": 74,
+          "mag": 20.0,
+          "probing": false
+        },
+        {
+          "chunk": 12,
+          "hsr": 100.0,
+          "late": 0.0,
+          "n": 53,
+          "mag": 20.0,
+          "probing": false
+        },
+        {
+          "chunk": 13,
+          "hsr": 93.84615384615384,
+          "late": 0.0,
+          "n": 65,
+          "mag": 20.0,
+          "probing": false
+        },
+        {
+          "chunk": 14,
+          "hsr": 95.89041095890411,
+          "late": 0.0,
+          "n": 73,
+          "mag": 20.0,
+          "probing": false
+        },
+        {
+          "chunk": 15,
+          "hsr": 87.17948717948718,
+          "late": 0.0,
+          "n": 78,
+          "mag": 20.0,
+          "probing": false
+        }
+      ],
+      "hsr_pre": 95.78554906413726,
+      "hsr_post": 93.59696181788414,
+      "detection_delay": null,
+      "probe_polar_attempts": 0,
+      "probe_chunks": [],
+      "final_mag": 18.0
+    },
+    "loop": {
+      "mode": "loop",
+      "chunks": [
+        {
+          "chunk": 0,
+          "hsr": 100.0,
+          "late": 0.0,
+          "n": 18,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 1,
+          "hsr": 100.0,
+          "late": 0.0,
+          "n": 52,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 2,
+          "hsr": 94.28571428571429,
+          "late": 0.0,
+          "n": 70,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 3,
+          "hsr": 94.25287356321839,
+          "late": 0.0,
+          "n": 87,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 4,
+          "hsr": 93.61702127659575,
+          "late": 0.0,
+          "n": 94,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 5,
+          "hsr": 99.00990099009901,
+          "late": 0.0,
+          "n": 101,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 6,
+          "hsr": 89.33333333333333,
+          "late": 0.0,
+          "n": 75,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 7,
+          "hsr": 98.41269841269842,
+          "late": 0.0,
+          "n": 63,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 8,
+          "hsr": 87.71929824561404,
+          "late": 5.2631578947368425,
+          "n": 57,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 9,
+          "hsr": 82.6923076923077,
+          "late": 7.6923076923076925,
+          "n": 52,
+          "mag": 18.0,
+          "probing": true,
+          "gate_gain": 0.0,
+          "candidate": 20.0
+        },
+        {
+          "chunk": 10,
+          "hsr": 93.93939393939394,
+          "late": 0.0,
+          "n": 66,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 11,
+          "hsr": 79.71014492753623,
+          "late": 7.246376811594203,
+          "n": 69,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 12,
+          "hsr": 100.0,
+          "late": 0.0,
+          "n": 49,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 13,
+          "hsr": 85.71428571428571,
+          "late": 7.142857142857143,
+          "n": 56,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 14,
+          "hsr": 95.89041095890411,
+          "late": 0.0,
+          "n": 73,
+          "mag": 18.0,
+          "probing": false
+        },
+        {
+          "chunk": 15,
+          "hsr": 82.8125,
+          "late": 14.0625,
+          "n": 64,
+          "mag": 18.0,
+          "probing": false
+        }
+      ],
+      "hsr_pre": 95.78554906413726,
+      "hsr_post": 89.65455998786001,
+      "detection_delay": 1,
+      "probe_polar_attempts": 52,
+      "probe_chunks": [
+        9
+      ],
+      "final_mag": 18.0
+    }
+  }
+}

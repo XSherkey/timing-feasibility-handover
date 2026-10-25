@@ -1,0 +1,71 @@
+{
+  "constraints": [
+    {
+      "id": "k0001",
+      "version": 1,
+      "atoms": [
+        {
+          "field": "handover_advance_s",
+          "cmp": "<=",
+          "value": 16
+        }
+      ],
+      "effect": "min_advance",
+      "magnitude": 16.0,
+      "nl_reading": "All late_handover episodes requested a lead of 6-16 s while acquisition took about 8.3-16.5 s. Enforcing a 16 s minimum lead addresses the observed under-advance condition, especially where acquisition exceeded the requested lead.",
+      "provenance": {
+        "delta_val": 0.11630458325093462,
+        "delta_test": 0.09896111550594866,
+        "discovery_rows": 24,
+        "replay_config": {
+          "validate_episodes": 2,
+          "test_episodes": 2,
+          "traffic_multipliers": [
+            0.5,
+            1.0,
+            2.0
+          ]
+        },
+        "hypothesis": {
+          "if": {
+            "all": [
+              {
+                "field": "handover_advance_s",
+                "cmp": "<=",
+                "value": 16
+              }
+            ]
+          },
+          "then": {
+            "effect": "min_advance",
+            "magnitude": 16
+          },
+          "rationale": "All late_handover episodes requested a lead of 6-16 s while acquisition took about 8.3-16.5 s. Enforcing a 16 s minimum lead addresses the observed under-advance condition, especially where acquisition exceeded the requested lead."
+        }
+      },
+      "confidence": 0.6649351925099145,
+      "scope_tags": {
+        "polar": true,
+        "regime": "arctic",
+        "traffic_class": "video",
+        "density": "ref350"
+      },
+      "created_at": 1792724939.6303377,
+      "predecessor": null,
+      "retracted_at": null,
+      "retraction_reason": null,
+      "active": true
+    }
+  ],
+  "history": [
+    {
+      "event": "commit",
+      "id": "k0001",
+      "version": 1,
+      "ts": 1792724939.6303377
+    }
+  ],
+  "versions": {
+    "k0001": 1
+  }
+}

@@ -1,0 +1,13 @@
+nominal  no_knowledge            76.31
+nominal  reward_lam8             82.93
+nominal  narrative_16s_rule      91.60
+nominal  tuned_constant_18       93.33
+nominal  deployed_probe_shield   93.36
+nominal  oracle                  93.36
+plus2s   no_knowledge            54.64
+plus2s   reward_lam8             52.00
+plus2s   narrative_16s_rule      84.79
+plus2s   tuned_constant_18       92.39
+plus2s   deployed_probe_shield   92.42
+plus2s   oracle                  93.36
+wrote D:\Desktop_Files\论文\1. LLM Satellite Reinforcement Learning\自己写\almond-repro\results\routeA_r3\ladder_consistent\summary.json

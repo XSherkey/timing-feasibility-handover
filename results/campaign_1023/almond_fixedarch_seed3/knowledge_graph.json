@@ -1,0 +1,81 @@
+{
+  "constraints": [
+    {
+      "id": "k0001",
+      "version": 1,
+      "atoms": [
+        {
+          "field": "latitude_abs_deg",
+          "cmp": ">=",
+          "value": 64
+        },
+        {
+          "field": "handover_advance_s",
+          "cmp": "<=",
+          "value": 16
+        }
+      ],
+      "effect": "min_advance",
+      "magnitude": 16.0,
+      "nl_reading": "late_handover episodes occur in the Arctic at latitudes 64-82 deg with requested leads of 10-16 s while acquisition takes 10.0-16.5 s. Setting the minimum lead to the grammar maximum of 16 s targets the short-lead failures; residual 16 s-lead cases with acquisition 16.4-16.5 s suggest acquisition overhead slightly exceeds the allowed max and needs separate tuning.",
+      "provenance": {
+        "delta_val": 0.12160836874795689,
+        "delta_test": 0.098504737136956,
+        "discovery_rows": 24,
+        "replay_config": {
+          "validate_episodes": 2,
+          "test_episodes": 2,
+          "traffic_multipliers": [
+            0.5,
+            1.0,
+            2.0
+          ]
+        },
+        "hypothesis": {
+          "if": {
+            "all": [
+              {
+                "field": "latitude_abs_deg",
+                "cmp": ">=",
+                "value": 64
+              },
+              {
+                "field": "handover_advance_s",
+                "cmp": "<=",
+                "value": 16
+              }
+            ]
+          },
+          "then": {
+            "effect": "min_advance",
+            "magnitude": 16
+          },
+          "rationale": "late_handover episodes occur in the Arctic at latitudes 64-82 deg with requested leads of 10-16 s while acquisition takes 10.0-16.5 s. Setting the minimum lead to the grammar maximum of 16 s targets the short-lead failures; residual 16 s-lead cases with acquisition 16.4-16.5 s suggest acquisition overhead slightly exceeds the allowed max and needs separate tuning."
+        }
+      },
+      "confidence": 0.6641745618949266,
+      "scope_tags": {
+        "polar": true,
+        "regime": "arctic",
+        "traffic_class": "video",
+        "density": "ref350"
+      },
+      "created_at": 1792725007.862541,
+      "predecessor": null,
+      "retracted_at": null,
+      "retraction_reason": null,
+      "active": true
+    }
+  ],
+  "history": [
+    {
+      "event": "commit",
+      "id": "k0001",
+      "version": 1,
+      "ts": 1792725007.862541
+    }
+  ],
+  "versions": {
+    "k0001": 1
+  }
+}

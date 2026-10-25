@@ -1,0 +1,20 @@
+{
+  "model": "deepseek-flash",
+  "n_narratives": 20,
+  "valid_rate": 1.0,
+  "judge_rate": 1.0,
+  "kappa": NaN,
+  "agreement": 1.0,
+  "schema_fail_rate": 0.0,
+  "magnitude": {
+    "n_pairs": 20,
+    "unchanged_under_2s_drift": 12,
+    "share_unchanged": 0.6,
+    "mean": 12.9
+  },
+  "prompts": {
+    "P1": "You are a satellite-network operations analyst. You read temporal narratives of failed handover episodes and propose the single most plausible latent operational rule, expressed in a constrained predicate grammar. Rules must reference only declared telemetry fields, must be physically plausible under SGP4-propagated geometry, and must be falsifiable by counterfactual replay. You answer with JSON only.\n\nOPERATOR INTENT: {intent}\n\nDECLARED TELEMETRY FIELDS (rule predicates may use only these):\nelevation_deg, handover_advance_s, isl_hop_count, doppler_rate_hz_s, latitude_abs_deg,\nsnr_db, remaining_visibility_s, plane_change, path_available, buffer_occupancy, battery_state,\neclipse, satellite_latitude_deg\n\nEXECUTABLE EFFECTS:\nmin_advance, cap_advance, power_cap, prefer_same_plane, prefer_long_visibility,\nforbid_unrouted_target, buffer_drain\n\nPAST FAILURE NARRATIVES (training window only):\n{narratives}\n\nReturn JSON with exactly these keys:\n  effect      : one of the effects above\n  atoms       : list of {\"field\": ..., \"cmp\": one of <,<=,>,>=,==,!=, \"value\": number}\n  magnitude   : number (seconds for lead-time effects)\n",
+    "P2": "You are a satellite-network operations analyst. You read temporal narratives of failed handover episodes and propose the single most plausible latent operational rule, expressed in a constrained predicate grammar. Rules must reference only declared telemetry fields, must be physically plausible under SGP4-propagated geometry, and must be falsifiable by counterfactual replay. You also state the magnitude the rule should enforce, in seconds, with one sentence of justification. You answer with JSON only.\n\nOPERATOR INTENT: {intent}\n\nDECLARED TELEMETRY FIELDS (rule predicates may use only these):\nelevation_deg, handover_advance_s, isl_hop_count, doppler_rate_hz_s, latitude_abs_deg,\nsnr_db, remaining_visibility_s, plane_change, path_available, buffer_occupancy, battery_state,\neclipse, satellite_latitude_deg\n\nEXECUTABLE EFFECTS:\nmin_advance, cap_advance, power_cap, prefer_same_plane, prefer_long_visibility,\nforbid_unrouted_target, buffer_drain\n\nPAST FAILURE NARRATIVES (training window only):\n{narratives}\n\nReturn JSON with exactly these keys:\n  effect      : one of the effects above\n  atoms       : list of {\"field\": ..., \"cmp\": one of <,<=,>,>=,==,!=, \"value\": number}\n  magnitude   : number (seconds for lead-time effects)\n  magnitude_justification : one sentence\n"
+  },
+  "note": "The second annotator is a language-model judge, not a human; a human re-annotation of the same twenty items is required before submission."
+}

@@ -1,0 +1,81 @@
+{
+  "constraints": [
+    {
+      "id": "k0001",
+      "version": 1,
+      "atoms": [
+        {
+          "field": "latitude_abs_deg",
+          "cmp": ">=",
+          "value": 68
+        },
+        {
+          "field": "handover_advance_s",
+          "cmp": "<=",
+          "value": 16
+        }
+      ],
+      "effect": "min_advance",
+      "magnitude": 16.0,
+      "nl_reading": "All late_handover episodes occur at absolute latitude >=68 deg with requested handover advance <=16 s while acquisition took 8.3-16.6 s. Enforcing a minimum advance of 16 s targets the late_handover remedy in the polar arctic regime.",
+      "provenance": {
+        "delta_val": 0.09724584724584728,
+        "delta_test": 0.09001843435928718,
+        "discovery_rows": 24,
+        "replay_config": {
+          "validate_episodes": 2,
+          "test_episodes": 2,
+          "traffic_multipliers": [
+            0.5,
+            1.0,
+            2.0
+          ]
+        },
+        "hypothesis": {
+          "if": {
+            "all": [
+              {
+                "field": "latitude_abs_deg",
+                "cmp": ">=",
+                "value": 68
+              },
+              {
+                "field": "handover_advance_s",
+                "cmp": "<=",
+                "value": 16
+              }
+            ]
+          },
+          "then": {
+            "effect": "min_advance",
+            "magnitude": 16
+          },
+          "rationale": "All late_handover episodes occur at absolute latitude >=68 deg with requested handover advance <=16 s while acquisition took 8.3-16.6 s. Enforcing a minimum advance of 16 s targets the late_handover remedy in the polar arctic regime."
+        }
+      },
+      "confidence": 0.6500307239321453,
+      "scope_tags": {
+        "polar": true,
+        "regime": "arctic",
+        "traffic_class": "video",
+        "density": "ref350"
+      },
+      "created_at": 1792725286.4307792,
+      "predecessor": null,
+      "retracted_at": null,
+      "retraction_reason": null,
+      "active": true
+    }
+  ],
+  "history": [
+    {
+      "event": "commit",
+      "id": "k0001",
+      "version": 1,
+      "ts": 1792725286.4307792
+    }
+  ],
+  "versions": {
+    "k0001": 1
+  }
+}

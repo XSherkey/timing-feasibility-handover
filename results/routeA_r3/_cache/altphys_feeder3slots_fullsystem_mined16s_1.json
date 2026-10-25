@@ -1,0 +1,39 @@
+[
+  {
+    "label": "feeder 3 slots/full-system/mined 16 s/s1",
+    "policy": "ckpt",
+    "rules": [
+      "min_advance:16@latitude_abs_deg>=68"
+    ],
+    "arctic": [
+      0.6575809199318569,
+      587
+    ],
+    "midlat": [
+      0.8484621155288822,
+      1333
+    ],
+    "equatorial": [
+      0.8894154818325435,
+      633
+    ],
+    "overall": [
+      0.8147277712495103,
+      2553
+    ],
+    "n_attempts": 2553,
+    "satisfaction": 63.889512372108406,
+    "satisfaction_arctic": 40.834702921035124,
+    "satisfaction_midlat": 69.92189300339179,
+    "satisfaction_equatorial": 73.50829950884423,
+    "polar_causes": {
+      "ok": 0.6575809199318569,
+      "no_route": 0.26916524701873934,
+      "late_handover": 0.03747870528109029,
+      "window_exceeded": 0.03577512776831346
+    },
+    "polar_advance_mean": 16.0,
+    "polar_share_ge12": 1.0,
+    "polar_share_ge16": 1.0
+  }
+]

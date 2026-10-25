@@ -1,0 +1,38 @@
+[
+  {
+    "label": "feeder 3 slots/PPO-MLP/tau_used = 18 s/s0",
+    "policy": "ckpt",
+    "rules": [
+      "min_advance:18@latitude_abs_deg>=68"
+    ],
+    "arctic": [
+      0.6959349593495935,
+      615
+    ],
+    "midlat": [
+      0.8795698924731182,
+      1395
+    ],
+    "equatorial": [
+      0.8932496075353218,
+      637
+    ],
+    "overall": [
+      0.8401964488099736,
+      2647
+    ],
+    "n_attempts": 2647,
+    "satisfaction": 49.632191353855646,
+    "satisfaction_arctic": 34.45798485520646,
+    "satisfaction_midlat": 57.98724050338281,
+    "satisfaction_equatorial": 50.499088036666606,
+    "polar_causes": {
+      "ok": 0.6959349593495935,
+      "no_route": 0.26666666666666666,
+      "window_exceeded": 0.03739837398373984
+    },
+    "polar_advance_mean": 18.0,
+    "polar_share_ge12": 1.0,
+    "polar_share_ge16": 1.0
+  }
+]

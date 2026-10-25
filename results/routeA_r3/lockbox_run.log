@@ -1,0 +1,5 @@
+eval {'mined_16': 92.44, 'deployed_18': 93.36, 'tuned_constant': 93.33, 'ppomlp_mined_16': 91.77, 'reward_lam8': 82.93, 'oracle': 93.36}
+lb299.25 {'mined_16': 91.25, 'deployed_18': 91.67, 'tuned_constant': 91.67, 'ppomlp_mined_16': 90.7, 'reward_lam8': 80.65, 'oracle': 91.79}
+lb306.25 {'mined_16': 92.65, 'deployed_18': 93.03, 'tuned_constant': 93.06, 'ppomlp_mined_16': 91.78, 'reward_lam8': 82.17, 'oracle': 93.43}
+lb290.25 {'mined_16': 92.51, 'deployed_18': 92.91, 'tuned_constant': 92.91, 'ppomlp_mined_16': 92.05, 'reward_lam8': 83.52, 'oracle': 93.16}
+wrote D:\Desktop_Files\论文\1. LLM Satellite Reinforcement Learning\自己写\almond-repro\results\routeA_r3\lockbox_consistent\summary.json

@@ -1,0 +1,39 @@
+[
+  {
+    "label": "gate_rand_R09_s2",
+    "policy": "ckpt",
+    "rules": [
+      "min_advance:14@isl_hop_count>=0,remaining_visibility_s<=240"
+    ],
+    "arctic": [
+      0.8565789473684211,
+      760
+    ],
+    "midlat": [
+      0.863003663003663,
+      1365
+    ],
+    "equatorial": [
+      0.9492753623188406,
+      690
+    ],
+    "overall": [
+      0.8824156305506217,
+      2815
+    ],
+    "n_attempts": 2815,
+    "satisfaction": 73.40520877298556,
+    "satisfaction_arctic": 69.85023400110087,
+    "satisfaction_midlat": 71.54250129276883,
+    "satisfaction_equatorial": 81.76167003622945,
+    "polar_causes": {
+      "late_handover": 0.06447368421052632,
+      "ok": 0.8565789473684211,
+      "no_route": 0.030263157894736843,
+      "window_exceeded": 0.04868421052631579
+    },
+    "polar_advance_mean": 11.48421052631579,
+    "polar_share_ge12": 0.5855263157894737,
+    "polar_share_ge16": 0.14868421052631578
+  }
+]

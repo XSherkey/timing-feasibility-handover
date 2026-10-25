@@ -1,0 +1,49 @@
+G01 min_advance:18@latitude_abs_deg>=68          short +18.95 long +22.45 test +21.56
+G02 min_advance:8@latitude_abs_deg>=68           short  +0.97 long  +1.42 test  +0.84
+G03 min_advance:18@latitude_abs_deg>=0           short +18.95 long +22.45 test +21.56
+G04 min_advance:28@latitude_abs_deg>=68          short +18.12 long +22.17 test +21.43
+G05 min_advance:18@elevation_deg>=15             short +18.67 long +22.53 test +21.52
+G06 min_advance:18@latitude_abs_deg>=70          short +18.95 long +22.45 test +21.56
+G07 prefer_same_plane:0@latitude_abs_deg>=68     short  +6.20 long  +7.19 test  +6.42
+G08 min_advance:18@latitude_abs_deg>=68,elevatio short +18.67 long +22.53 test +21.52
+G09 min_advance:18@latitude_abs_deg>=68,latitude short  +7.99 long  +8.46 test  +7.40
+G10 min_advance:26@latitude_abs_deg>=0           short +18.12 long +22.17 test +21.43
+G11 cap_advance:20@latitude_abs_deg>=68          short  +0.00 long  +0.00 test  +0.00
+G12 min_advance:18@remaining_visibility_s>=240   short  +7.95 long +10.94 test  +9.86
+G13 min_advance:18@isl_hop_count<=0              short +14.28 long +18.46 test +17.88
+G14 prefer_long_visibility:0@latitude_abs_deg>=6 short -15.18 long -10.71 test  -9.81
+G15 forbid_unrouted_target:0@latitude_abs_deg>=0 short  +0.00 long  +0.00 test  +0.00
+G16 min_advance:22@latitude_abs_deg>=68          short +18.12 long +22.17 test +21.43
+G17 min_advance:18@latitude_abs_deg>=60          short +18.95 long +22.45 test +21.56
+G18 min_advance:12@latitude_abs_deg>=68          short +14.03 long +16.76 test +15.56
+G19 min_advance:30@latitude_abs_deg>=68          short +18.12 long +22.17 test +21.43
+G20 prefer_same_plane:0@latitude_abs_deg>=0      short  +6.20 long  +7.19 test  +6.42
+G21 cap_advance:6@latitude_abs_deg>=68           short -24.28 long -30.13 test -27.61
+G22 cap_advance:8@latitude_abs_deg>=68           short -18.47 long -22.14 test -22.42
+G23 cap_advance:10@latitude_abs_deg>=0           short  -6.74 long  -8.90 test  -9.12
+G24 cap_advance:12@latitude_abs_deg>=68          short  -6.35 long  -7.95 test  -8.09
+G25 prefer_long_visibility:0@latitude_abs_deg>=0 short -15.18 long -10.71 test  -9.81
+G26 cap_advance:4@latitude_abs_deg>=68           short -24.28 long -30.13 test -27.61
+wrote D:\Desktop_Files\论文\1. LLM Satellite Reinforcement Learning\自己写\almond-repro\results\routeA_r3\gate_systematic\summary.json
+gate: {
+ "confusion": {
+  "harmful": {
+   "admit": 0,
+   "reject": 7
+  },
+  "neutral": {
+   "admit": 0,
+   "reject": 3
+  },
+  "good": {
+   "admit": 16,
+   "reject": 0
+  }
+ },
+ "false_accept": 0.0,
+ "false_reject": 0.0,
+ "n_admitted": 16,
+ "hsr_gate_on_pp": 21.562483622156066,
+ "hsr_gate_off_worst_pp": -27.60949090013692,
+ "mean_delta_admitted_pp": 17.40836158375822
+}

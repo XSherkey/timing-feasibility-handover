@@ -1,0 +1,38 @@
+[
+  {
+    "label": "drift_5.6_shield_probed_s2",
+    "policy": "ckpt",
+    "rules": [
+      "min_advance:24@latitude_abs_deg>=68"
+    ],
+    "arctic": [
+      0.9320046893317703,
+      853
+    ],
+    "midlat": [
+      0.26584022038567495,
+      726
+    ],
+    "equatorial": [
+      0.05090909090909091,
+      275
+    ],
+    "overall": [
+      0.540453074433657,
+      1854
+    ],
+    "n_attempts": 1854,
+    "satisfaction": 25.85782579563332,
+    "satisfaction_arctic": 79.9268551736439,
+    "satisfaction_midlat": 21.64181769895318,
+    "satisfaction_equatorial": 19.04997455553343,
+    "polar_causes": {
+      "ok": 0.9320046893317703,
+      "no_route": 0.022274325908558032,
+      "window_exceeded": 0.04572098475967175
+    },
+    "polar_advance_mean": 24.0,
+    "polar_share_ge12": 1.0,
+    "polar_share_ge16": 1.0
+  }
+]

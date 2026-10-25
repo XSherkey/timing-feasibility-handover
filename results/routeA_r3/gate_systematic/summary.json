@@ -1,0 +1,342 @@
+{
+  "admit_pp": 5.0,
+  "bank": [
+    {
+      "id": "G01",
+      "rule": "min_advance:18@latitude_abs_deg>=68",
+      "delta_short": 18.945837902475716,
+      "delta_long": 22.44850651352966,
+      "delta_test": 21.562483622156066,
+      "sd_long": 21.22056292408116,
+      "class": "good",
+      "admit_short": true,
+      "admit_long": true
+    },
+    {
+      "id": "G02",
+      "rule": "min_advance:8@latitude_abs_deg>=68",
+      "delta_short": 0.9682311529492319,
+      "delta_long": 1.4161300419697724,
+      "delta_test": 0.8350085293559056,
+      "sd_long": 2.192244365685414,
+      "class": "neutral",
+      "admit_short": false,
+      "admit_long": false
+    },
+    {
+      "id": "G03",
+      "rule": "min_advance:18@latitude_abs_deg>=0",
+      "delta_short": 18.945837902475716,
+      "delta_long": 22.44850651352966,
+      "delta_test": 21.562483622156066,
+      "sd_long": 21.22056292408116,
+      "class": "good",
+      "admit_short": true,
+      "admit_long": true
+    },
+    {
+      "id": "G04",
+      "rule": "min_advance:28@latitude_abs_deg>=68",
+      "delta_short": 18.121387973367916,
+      "delta_long": 22.174827056806446,
+      "delta_test": 21.429619221999758,
+      "sd_long": 21.21985145373305,
+      "class": "good",
+      "admit_short": true,
+      "admit_long": true
+    },
+    {
+      "id": "G05",
+      "rule": "min_advance:18@elevation_deg>=15",
+      "delta_short": 18.673012684389324,
+      "delta_long": 22.530601843161804,
+      "delta_test": 21.51819548877063,
+      "sd_long": 21.23549168960774,
+      "class": "good",
+      "admit_short": true,
+      "admit_long": true
+    },
+    {
+      "id": "G06",
+      "rule": "min_advance:18@latitude_abs_deg>=70",
+      "delta_short": 18.945837902475716,
+      "delta_long": 22.44850651352966,
+      "delta_test": 21.562483622156066,
+      "sd_long": 21.22056292408116,
+      "class": "good",
+      "admit_short": true,
+      "admit_long": true
+    },
+    {
+      "id": "G07",
+      "rule": "prefer_same_plane:0@latitude_abs_deg>=68",
+      "delta_short": 6.199306681164155,
+      "delta_long": 7.188814020275648,
+      "delta_test": 6.415252717369381,
+      "sd_long": 5.746865787866281,
+      "class": "good",
+      "admit_short": true,
+      "admit_long": true
+    },
+    {
+      "id": "G08",
+      "rule": "min_advance:18@latitude_abs_deg>=68,elevation_deg>=15",
+      "delta_short": 18.673012684389324,
+      "delta_long": 22.530601843161804,
+      "delta_test": 21.51819548877063,
+      "sd_long": 21.23549168960774,
+      "class": "good",
+      "admit_short": true,
+      "admit_long": true
+    },
+    {
+      "id": "G09",
+      "rule": "min_advance:18@latitude_abs_deg>=68,latitude_abs_deg<=75",
+      "delta_short": 7.9864025056793695,
+      "delta_long": 8.461762154656235,
+      "delta_test": 7.39507144347175,
+      "sd_long": 6.819196354802884,
+      "class": "good",
+      "admit_short": true,
+      "admit_long": true
+    },
+    {
+      "id": "G10",
+      "rule": "min_advance:26@latitude_abs_deg>=0",
+      "delta_short": 18.121387973367916,
+      "delta_long": 22.174827056806446,
+      "delta_test": 21.429619221999758,
+      "sd_long": 21.21985145373305,
+      "class": "good",
+      "admit_short": true,
+      "admit_long": true
+    },
+    {
+      "id": "G11",
+      "rule": "cap_advance:20@latitude_abs_deg>=68",
+      "delta_short": 0.0,
+      "delta_long": 0.0,
+      "delta_test": 0.0,
+      "sd_long": 0.0,
+      "class": "neutral",
+      "admit_short": false,
+      "admit_long": false
+    },
+    {
+      "id": "G12",
+      "rule": "min_advance:18@remaining_visibility_s>=240",
+      "delta_short": 7.945075118713471,
+      "delta_long": 10.942090636112546,
+      "delta_test": 9.862823427863347,
+      "sd_long": 13.239354295119346,
+      "class": "good",
+      "admit_short": true,
+      "admit_long": true
+    },
+    {
+      "id": "G13",
+      "rule": "min_advance:18@isl_hop_count<=0",
+      "delta_short": 14.277250659086638,
+      "delta_long": 18.462486908642454,
+      "delta_test": 17.88487000142256,
+      "sd_long": 19.75948498991671,
+      "class": "good",
+      "admit_short": true,
+      "admit_long": true
+    },
+    {
+      "id": "G14",
+      "rule": "prefer_long_visibility:0@latitude_abs_deg>=68",
+      "delta_short": -15.182840709312053,
+      "delta_long": -10.712708707674684,
+      "delta_test": -9.811710087808322,
+      "sd_long": 6.646662081883691,
+      "class": "harmful",
+      "admit_short": false,
+      "admit_long": false
+    },
+    {
+      "id": "G15",
+      "rule": "forbid_unrouted_target:0@latitude_abs_deg>=0",
+      "delta_short": 0.0,
+      "delta_long": 0.0,
+      "delta_test": 0.0,
+      "sd_long": 0.0,
+      "class": "neutral",
+      "admit_short": false,
+      "admit_long": false
+    },
+    {
+      "id": "G16",
+      "rule": "min_advance:22@latitude_abs_deg>=68",
+      "delta_short": 18.121387973367916,
+      "delta_long": 22.174827056806446,
+      "delta_test": 21.429619221999758,
+      "sd_long": 21.21985145373305,
+      "class": "good",
+      "admit_short": true,
+      "admit_long": true
+    },
+    {
+      "id": "G17",
+      "rule": "min_advance:18@latitude_abs_deg>=60",
+      "delta_short": 18.945837902475716,
+      "delta_long": 22.44850651352966,
+      "delta_test": 21.562483622156066,
+      "sd_long": 21.22056292408116,
+      "class": "good",
+      "admit_short": true,
+      "admit_long": true
+    },
+    {
+      "id": "G18",
+      "rule": "min_advance:12@latitude_abs_deg>=68",
+      "delta_short": 14.028309309352196,
+      "delta_long": 16.760929145809616,
+      "delta_test": 15.555712678470565,
+      "sd_long": 15.335905747766642,
+      "class": "good",
+      "admit_short": true,
+      "admit_long": true
+    },
+    {
+      "id": "G19",
+      "rule": "min_advance:30@latitude_abs_deg>=68",
+      "delta_short": 18.121387973367916,
+      "delta_long": 22.174827056806446,
+      "delta_test": 21.429619221999758,
+      "sd_long": 21.21985145373305,
+      "class": "good",
+      "admit_short": true,
+      "admit_long": true
+    },
+    {
+      "id": "G20",
+      "rule": "prefer_same_plane:0@latitude_abs_deg>=0",
+      "delta_short": 6.199306681164155,
+      "delta_long": 7.188814020275648,
+      "delta_test": 6.415252717369381,
+      "sd_long": 5.746865787866281,
+      "class": "good",
+      "admit_short": true,
+      "admit_long": true
+    },
+    {
+      "id": "G21",
+      "rule": "cap_advance:6@latitude_abs_deg>=68",
+      "delta_short": -24.276311650609085,
+      "delta_long": -30.13125379436993,
+      "delta_test": -27.60949090013692,
+      "sd_long": 21.294839024893857,
+      "class": "harmful",
+      "admit_short": false,
+      "admit_long": false
+    },
+    {
+      "id": "G22",
+      "rule": "cap_advance:8@latitude_abs_deg>=68",
+      "delta_short": -18.474251641652526,
+      "delta_long": -22.139823914166612,
+      "delta_test": -22.419795865244094,
+      "sd_long": 19.38636714927402,
+      "class": "harmful",
+      "admit_short": false,
+      "admit_long": false
+    },
+    {
+      "id": "G23",
+      "rule": "cap_advance:10@latitude_abs_deg>=0",
+      "delta_short": -6.735947796361491,
+      "delta_long": -8.897527893357596,
+      "delta_test": -9.119214481997817,
+      "sd_long": 7.475499411681392,
+      "class": "harmful",
+      "admit_short": false,
+      "admit_long": false
+    },
+    {
+      "id": "G24",
+      "rule": "cap_advance:12@latitude_abs_deg>=68",
+      "delta_short": -6.354012744642465,
+      "delta_long": -7.950421840804263,
+      "delta_test": -8.089023041759004,
+      "sd_long": 6.618200723009809,
+      "class": "harmful",
+      "admit_short": false,
+      "admit_long": false
+    },
+    {
+      "id": "G25",
+      "rule": "prefer_long_visibility:0@latitude_abs_deg>=0",
+      "delta_short": -15.182840709312053,
+      "delta_long": -10.712708707674684,
+      "delta_test": -9.811710087808322,
+      "sd_long": 6.646662081883691,
+      "class": "harmful",
+      "admit_short": false,
+      "admit_long": false
+    },
+    {
+      "id": "G26",
+      "rule": "cap_advance:4@latitude_abs_deg>=68",
+      "delta_short": -24.276311650609085,
+      "delta_long": -30.13125379436993,
+      "delta_test": -27.60949090013692,
+      "sd_long": 21.294839024893857,
+      "class": "harmful",
+      "admit_short": false,
+      "admit_long": false
+    }
+  ],
+  "gate": {
+    "short": {
+      "confusion": {
+        "harmful": {
+          "admit": 0,
+          "reject": 7
+        },
+        "neutral": {
+          "admit": 0,
+          "reject": 3
+        },
+        "good": {
+          "admit": 16,
+          "reject": 0
+        }
+      },
+      "false_accept": 0.0,
+      "false_reject": 0.0,
+      "n_admitted": 16,
+      "hsr_gate_on_pp": 21.562483622156066,
+      "hsr_gate_off_worst_pp": -27.60949090013692,
+      "mean_delta_admitted_pp": 17.40836158375822
+    },
+    "long": {
+      "confusion": {
+        "harmful": {
+          "admit": 0,
+          "reject": 7
+        },
+        "neutral": {
+          "admit": 0,
+          "reject": 3
+        },
+        "good": {
+          "admit": 16,
+          "reject": 0
+        }
+      },
+      "false_accept": 0.0,
+      "false_reject": 0.0,
+      "n_admitted": 16,
+      "hsr_gate_on_pp": 21.562483622156066,
+      "hsr_gate_off_worst_pp": -27.60949090013692,
+      "mean_delta_admitted_pp": 17.40836158375822
+    }
+  },
+  "base_test": {
+    "0": 90.02463054187191,
+    "1": 49.79919678714859,
+    "2": 75.48872180451129
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "label": "feeder 3 slots/full-system/no shield/s3",
+    "policy": "ckpt",
+    "rules": [],
+    "arctic": [
+      0.2891566265060241,
+      415
+    ],
+    "midlat": [
+      0.8307692307692308,
+      1300
+    ],
+    "equatorial": [
+      0.9037267080745341,
+      644
+    ],
+    "overall": [
+      0.7554048325561679,
+      2359
+    ],
+    "n_attempts": 2359,
+    "satisfaction": 57.73994713599656,
+    "satisfaction_arctic": 24.130514791970565,
+    "satisfaction_midlat": 68.35361363509456,
+    "satisfaction_equatorial": 76.26275039568256,
+    "polar_causes": {
+      "ok": 0.2891566265060241,
+      "late_handover": 0.35903614457831323,
+      "no_route": 0.3156626506024096,
+      "window_exceeded": 0.03614457831325301
+    },
+    "polar_advance_mean": 6.843373493975903,
+    "polar_share_ge12": 0.016867469879518072,
+    "polar_share_ge16": 0.012048192771084338
+  }
+]

@@ -1,0 +1,81 @@
+{
+  "constraints": [
+    {
+      "id": "k0001",
+      "version": 1,
+      "atoms": [
+        {
+          "field": "latitude_abs_deg",
+          "cmp": ">=",
+          "value": 64.0
+        },
+        {
+          "field": "handover_advance_s",
+          "cmp": "<=",
+          "value": 16.0
+        }
+      ],
+      "effect": "min_advance",
+      "magnitude": 16.0,
+      "nl_reading": "late_handover episodes occur at high-latitude sites with requested lead of 6 or 16 s while acquisition takes 8.2\u201316.5 s; enforcing a 16 s minimum advance removes the late-handover mechanism for most cases.",
+      "provenance": {
+        "delta_val": 0.057750431778929245,
+        "delta_test": 0.10155041138584638,
+        "discovery_rows": 24,
+        "replay_config": {
+          "validate_episodes": 2,
+          "test_episodes": 2,
+          "traffic_multipliers": [
+            0.5,
+            1.0,
+            2.0
+          ]
+        },
+        "hypothesis": {
+          "if": {
+            "all": [
+              {
+                "field": "latitude_abs_deg",
+                "cmp": ">=",
+                "value": 64.0
+              },
+              {
+                "field": "handover_advance_s",
+                "cmp": "<=",
+                "value": 16.0
+              }
+            ]
+          },
+          "then": {
+            "effect": "min_advance",
+            "magnitude": 16
+          },
+          "rationale": "late_handover episodes occur at high-latitude sites with requested lead of 6 or 16 s while acquisition takes 8.2\u201316.5 s; enforcing a 16 s minimum advance removes the late-handover mechanism for most cases."
+        }
+      },
+      "confidence": 0.6692506856430773,
+      "scope_tags": {
+        "polar": true,
+        "regime": "arctic",
+        "traffic_class": "video",
+        "density": "ref350"
+      },
+      "created_at": 1792725193.8832767,
+      "predecessor": null,
+      "retracted_at": null,
+      "retraction_reason": null,
+      "active": true
+    }
+  ],
+  "history": [
+    {
+      "event": "commit",
+      "id": "k0001",
+      "version": 1,
+      "ts": 1792725193.8832767
+    }
+  ],
+  "versions": {
+    "k0001": 1
+  }
+}

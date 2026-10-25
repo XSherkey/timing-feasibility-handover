@@ -1,0 +1,37 @@
+[
+  {
+    "label": "feeder 3 slots/PPO-MLP/no shield/s3",
+    "policy": "ckpt",
+    "rules": [],
+    "arctic": [
+      0.2766990291262136,
+      412
+    ],
+    "midlat": [
+      0.807478122513922,
+      1257
+    ],
+    "equatorial": [
+      0.9023255813953488,
+      645
+    ],
+    "overall": [
+      0.7394122731201382,
+      2314
+    ],
+    "n_attempts": 2314,
+    "satisfaction": 41.59662142523904,
+    "satisfaction_arctic": 20.35583074226156,
+    "satisfaction_midlat": 50.7890115110731,
+    "satisfaction_equatorial": 51.20196317213879,
+    "polar_causes": {
+      "ok": 0.2766990291262136,
+      "late_handover": 0.3932038834951456,
+      "no_route": 0.30339805825242716,
+      "window_exceeded": 0.02669902912621359
+    },
+    "polar_advance_mean": 6.650485436893204,
+    "polar_share_ge12": 0.0412621359223301,
+    "polar_share_ge16": 0.0412621359223301
+  }
+]

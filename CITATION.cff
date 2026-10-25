@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this code or these artefacts, please cite the paper below."
+title: "almond-repro: code and sealed artefacts for 'Timing-Feasibility Constraints for LEO Handover'"
+type: software
+authors:
+  - family-names: "[Xu]"
+    given-names: "[Zhengqian]"
+    orcid: "https://orcid.org/[0009-0002-9286-0640]"
+version: "v88"
+date-released: "2026-10-25"
+license: MIT
+repository-code: "https://github.com/[account]/[repository]"
+abstract: >-
+  Reproduction code, experiment scripts and the sealed JSON artefacts behind every number in
+  "Timing-Feasibility Constraints for LEO Handover: Attribution, Calibration and Audit in a Digital
+  Twin": a 350-satellite SGP4 twin, a censoring-aware constraint miner, a deployed-policy probe, a
+  counterfactual replay gate, and the figures and tables of the paper.
+preferred-citation:
+  type: article
+  title: "Timing-Feasibility Constraints for LEO Handover: Attribution, Calibration and Audit in a Digital Twin"
+  authors:
+    - family-names: "[Xu]"
+      given-names: "[Zhengqian]"
+  journal: "IEEE Transactions on Network and Service Management"
+  year: 2026
+  status: submitted

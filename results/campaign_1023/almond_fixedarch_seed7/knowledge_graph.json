@@ -1,0 +1,81 @@
+{
+  "constraints": [
+    {
+      "id": "k0001",
+      "version": 1,
+      "atoms": [
+        {
+          "field": "latitude_abs_deg",
+          "cmp": ">=",
+          "value": 68
+        },
+        {
+          "field": "handover_advance_s",
+          "cmp": "<=",
+          "value": 16
+        }
+      ],
+      "effect": "min_advance",
+      "magnitude": 16.0,
+      "nl_reading": "In arctic polar passes acquisition took about 13-16.6 s while requested lead was 10-16 s; enforcing at least 16 s lead removes late_handover cases where lead is shorter than acquisition.",
+      "provenance": {
+        "delta_val": 0.08562714723610854,
+        "delta_test": 0.08295003928495781,
+        "discovery_rows": 24,
+        "replay_config": {
+          "validate_episodes": 2,
+          "test_episodes": 2,
+          "traffic_multipliers": [
+            0.5,
+            1.0,
+            2.0
+          ]
+        },
+        "hypothesis": {
+          "if": {
+            "all": [
+              {
+                "field": "latitude_abs_deg",
+                "cmp": ">=",
+                "value": 68
+              },
+              {
+                "field": "handover_advance_s",
+                "cmp": "<=",
+                "value": 16
+              }
+            ]
+          },
+          "then": {
+            "effect": "min_advance",
+            "magnitude": 16
+          },
+          "rationale": "In arctic polar passes acquisition took about 13-16.6 s while requested lead was 10-16 s; enforcing at least 16 s lead removes late_handover cases where lead is shorter than acquisition."
+        }
+      },
+      "confidence": 0.6382500654749297,
+      "scope_tags": {
+        "polar": true,
+        "regime": "arctic",
+        "traffic_class": "video",
+        "density": "ref350"
+      },
+      "created_at": 1792725315.7849185,
+      "predecessor": null,
+      "retracted_at": null,
+      "retraction_reason": null,
+      "active": true
+    }
+  ],
+  "history": [
+    {
+      "event": "commit",
+      "id": "k0001",
+      "version": 1,
+      "ts": 1792725315.7849185
+    }
+  ],
+  "versions": {
+    "k0001": 1
+  }
+}

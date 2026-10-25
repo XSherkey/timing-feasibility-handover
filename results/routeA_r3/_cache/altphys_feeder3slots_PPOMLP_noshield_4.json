@@ -1,0 +1,37 @@
+[
+  {
+    "label": "feeder 3 slots/PPO-MLP/no shield/s4",
+    "policy": "ckpt",
+    "rules": [],
+    "arctic": [
+      0.5796296296296296,
+      540
+    ],
+    "midlat": [
+      0.9268617021276596,
+      1504
+    ],
+    "equatorial": [
+      0.9041731066460588,
+      647
+    ],
+    "overall": [
+      0.8517279821627648,
+      2691
+    ],
+    "n_attempts": 2691,
+    "satisfaction": 50.200441144260765,
+    "satisfaction_arctic": 25.16512411168044,
+    "satisfaction_midlat": 59.82300645849967,
+    "satisfaction_equatorial": 51.356453216693154,
+    "polar_causes": {
+      "ok": 0.5796296296296296,
+      "late_handover": 0.15185185185185185,
+      "no_route": 0.25555555555555554,
+      "window_exceeded": 0.012962962962962963
+    },
+    "polar_advance_mean": 10.148148148148149,
+    "polar_share_ge12": 0.19444444444444445,
+    "polar_share_ge16": 0.1925925925925926
+  }
+]

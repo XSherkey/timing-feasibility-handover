@@ -1,0 +1,36 @@
+[
+  {
+    "label": "lbx_lb306.25_tuned_constant_s2",
+    "policy": "maxel",
+    "rules": [],
+    "arctic": [
+      0.9305882352941176,
+      850
+    ],
+    "midlat": [
+      0.9563567362428842,
+      1581
+    ],
+    "equatorial": [
+      0.9378698224852071,
+      676
+    ],
+    "overall": [
+      0.9452848406823302,
+      3107
+    ],
+    "n_attempts": 3107,
+    "satisfaction": 63.78584080161508,
+    "satisfaction_arctic": 61.961115051126924,
+    "satisfaction_midlat": 66.62883289942754,
+    "satisfaction_equatorial": 60.86692272728593,
+    "polar_causes": {
+      "ok": 0.9305882352941176,
+      "no_route": 0.02235294117647059,
+      "window_exceeded": 0.047058823529411764
+    },
+    "polar_advance_mean": 18.0,
+    "polar_share_ge12": 1.0,
+    "polar_share_ge16": 1.0
+  }
+]

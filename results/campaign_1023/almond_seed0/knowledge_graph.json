@@ -1,0 +1,81 @@
+{
+  "constraints": [
+    {
+      "id": "k0001",
+      "version": 1,
+      "atoms": [
+        {
+          "field": "handover_advance_s",
+          "cmp": "<=",
+          "value": 16
+        },
+        {
+          "field": "latitude_abs_deg",
+          "cmp": ">=",
+          "value": 68
+        }
+      ],
+      "effect": "min_advance",
+      "magnitude": 16.0,
+      "nl_reading": "All late_handover episodes occur at high latitude with requested leads of 8-16 s while acquisition takes 8.2-16.6 s. Requiring at least a 16 s lead directly targets the late_handover remedy: the requested lead must not be shorter than acquisition time.",
+      "provenance": {
+        "delta_val": 0.1645181204154259,
+        "delta_test": 0.10647162137629877,
+        "discovery_rows": 24,
+        "replay_config": {
+          "validate_episodes": 2,
+          "test_episodes": 2,
+          "traffic_multipliers": [
+            0.5,
+            1.0,
+            2.0
+          ]
+        },
+        "hypothesis": {
+          "if": {
+            "all": [
+              {
+                "field": "handover_advance_s",
+                "cmp": "<=",
+                "value": 16
+              },
+              {
+                "field": "latitude_abs_deg",
+                "cmp": ">=",
+                "value": 68
+              }
+            ]
+          },
+          "then": {
+            "effect": "min_advance",
+            "magnitude": 16
+          },
+          "rationale": "All late_handover episodes occur at high latitude with requested leads of 8-16 s while acquisition takes 8.2-16.6 s. Requiring at least a 16 s lead directly targets the late_handover remedy: the requested lead must not be shorter than acquisition time."
+        }
+      },
+      "confidence": 0.6774527022938313,
+      "scope_tags": {
+        "polar": true,
+        "regime": "arctic",
+        "traffic_class": "video",
+        "density": "ref350"
+      },
+      "created_at": 1792724659.3942025,
+      "predecessor": null,
+      "retracted_at": null,
+      "retraction_reason": null,
+      "active": true
+    }
+  ],
+  "history": [
+    {
+      "event": "commit",
+      "id": "k0001",
+      "version": 1,
+      "ts": 1792724659.3942025
+    }
+  ],
+  "versions": {
+    "k0001": 1
+  }
+}

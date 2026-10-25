@@ -1,0 +1,37 @@
+[
+  {
+    "label": "seam disabled/PPO-MLP/tau_used = 18 s/s2",
+    "policy": "ckpt",
+    "rules": [
+      "min_advance:18@latitude_abs_deg>=68"
+    ],
+    "arctic": [
+      0.9546998867497168,
+      883
+    ],
+    "midlat": [
+      0.9275265957446809,
+      1504
+    ],
+    "equatorial": [
+      0.9199395770392749,
+      662
+    ],
+    "overall": [
+      0.9337487700885536,
+      3049
+    ],
+    "n_attempts": 3049,
+    "satisfaction": 57.856611145348616,
+    "satisfaction_arctic": 57.52778334421055,
+    "satisfaction_midlat": 60.83033867385971,
+    "satisfaction_equatorial": 52.63202748288164,
+    "polar_causes": {
+      "ok": 0.9546998867497168,
+      "window_exceeded": 0.045300113250283124
+    },
+    "polar_advance_mean": 18.0,
+    "polar_share_ge12": 1.0,
+    "polar_share_ge16": 1.0
+  }
+]

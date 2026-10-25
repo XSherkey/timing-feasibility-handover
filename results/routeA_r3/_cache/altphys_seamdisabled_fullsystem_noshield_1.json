@@ -1,0 +1,36 @@
+[
+  {
+    "label": "seam disabled/full-system/no shield/s1",
+    "policy": "ckpt",
+    "rules": [],
+    "arctic": [
+      0.5069582504970179,
+      503
+    ],
+    "midlat": [
+      0.7962962962962963,
+      1242
+    ],
+    "equatorial": [
+      0.8913385826771654,
+      635
+    ],
+    "overall": [
+      0.7605042016806722,
+      2380
+    ],
+    "n_attempts": 2380,
+    "satisfaction": 56.66221383108336,
+    "satisfaction_arctic": 21.455412711099168,
+    "satisfaction_midlat": 62.348644116393956,
+    "satisfaction_equatorial": 73.77844073816081,
+    "polar_causes": {
+      "ok": 0.5069582504970179,
+      "late_handover": 0.46322067594433397,
+      "window_exceeded": 0.02982107355864811
+    },
+    "polar_advance_mean": 6.636182902584493,
+    "polar_share_ge12": 0.0,
+    "polar_share_ge16": 0.0
+  }
+]

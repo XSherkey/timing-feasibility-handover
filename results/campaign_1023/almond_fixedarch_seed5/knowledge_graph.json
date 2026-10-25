@@ -1,0 +1,81 @@
+{
+  "constraints": [
+    {
+      "id": "k0001",
+      "version": 1,
+      "atoms": [
+        {
+          "field": "latitude_abs_deg",
+          "cmp": ">=",
+          "value": 68
+        },
+        {
+          "field": "handover_advance_s",
+          "cmp": "<=",
+          "value": 16
+        }
+      ],
+      "effect": "min_advance",
+      "magnitude": 16.0,
+      "nl_reading": "All late_handover episodes occur at |lat|>=68 deg with requested handover advance <=16 s, while acquisition took roughly 8.2-16.6 s. Enforcing a 16 s minimum lead removes the advance-shorter-than-acquisition failure mode for the arctic video class.",
+      "provenance": {
+        "delta_val": 0.14523472517103087,
+        "delta_test": 0.1184318253082803,
+        "discovery_rows": 24,
+        "replay_config": {
+          "validate_episodes": 2,
+          "test_episodes": 2,
+          "traffic_multipliers": [
+            0.5,
+            1.0,
+            2.0
+          ]
+        },
+        "hypothesis": {
+          "if": {
+            "all": [
+              {
+                "field": "latitude_abs_deg",
+                "cmp": ">=",
+                "value": 68
+              },
+              {
+                "field": "handover_advance_s",
+                "cmp": "<=",
+                "value": 16
+              }
+            ]
+          },
+          "then": {
+            "effect": "min_advance",
+            "magnitude": 16
+          },
+          "rationale": "All late_handover episodes occur at |lat|>=68 deg with requested handover advance <=16 s, while acquisition took roughly 8.2-16.6 s. Enforcing a 16 s minimum lead removes the advance-shorter-than-acquisition failure mode for the arctic video class."
+        }
+      },
+      "confidence": 0.6973863755138006,
+      "scope_tags": {
+        "polar": true,
+        "regime": "arctic",
+        "traffic_class": "video",
+        "density": "ref350"
+      },
+      "created_at": 1792725147.1170971,
+      "predecessor": null,
+      "retracted_at": null,
+      "retraction_reason": null,
+      "active": true
+    }
+  ],
+  "history": [
+    {
+      "event": "commit",
+      "id": "k0001",
+      "version": 1,
+      "ts": 1792725147.1170971
+    }
+  ],
+  "versions": {
+    "k0001": 1
+  }
+}

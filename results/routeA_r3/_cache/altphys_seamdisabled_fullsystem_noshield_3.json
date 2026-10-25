@@ -1,0 +1,36 @@
+[
+  {
+    "label": "seam disabled/full-system/no shield/s3",
+    "policy": "ckpt",
+    "rules": [],
+    "arctic": [
+      0.6449399656946827,
+      583
+    ],
+    "midlat": [
+      0.8392721758908264,
+      1319
+    ],
+    "equatorial": [
+      0.9055727554179567,
+      646
+    ],
+    "overall": [
+      0.8116169544740973,
+      2548
+    ],
+    "n_attempts": 2548,
+    "satisfaction": 65.29883975017641,
+    "satisfaction_arctic": 43.6666733087821,
+    "satisfaction_midlat": 69.57180874662858,
+    "satisfaction_equatorial": 76.50248893199274,
+    "polar_causes": {
+      "ok": 0.6449399656946827,
+      "late_handover": 0.3018867924528302,
+      "window_exceeded": 0.05317324185248713
+    },
+    "polar_advance_mean": 7.842195540308748,
+    "polar_share_ge12": 0.10634648370497427,
+    "polar_share_ge16": 0.058319039451114926
+  }
+]

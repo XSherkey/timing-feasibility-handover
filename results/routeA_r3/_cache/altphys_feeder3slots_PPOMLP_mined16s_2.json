@@ -1,0 +1,39 @@
+[
+  {
+    "label": "feeder 3 slots/PPO-MLP/mined 16 s/s2",
+    "policy": "ckpt",
+    "rules": [
+      "min_advance:16@latitude_abs_deg>=68"
+    ],
+    "arctic": [
+      0.6716917922948074,
+      597
+    ],
+    "midlat": [
+      0.9190283400809717,
+      1482
+    ],
+    "equatorial": [
+      0.9128440366972477,
+      654
+    ],
+    "overall": [
+      0.8635199414562752,
+      2733
+    ],
+    "n_attempts": 2733,
+    "satisfaction": 50.91900397125029,
+    "satisfaction_arctic": 32.533721518985544,
+    "satisfaction_midlat": 59.466564228993015,
+    "satisfaction_equatorial": 52.06176433914873,
+    "polar_causes": {
+      "ok": 0.6716917922948074,
+      "no_route": 0.2629815745393635,
+      "late_handover": 0.02680067001675042,
+      "window_exceeded": 0.038525963149078725
+    },
+    "polar_advance_mean": 16.046901172529314,
+    "polar_share_ge12": 1.0,
+    "polar_share_ge16": 1.0
+  }
+]

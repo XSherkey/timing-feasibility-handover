@@ -1,0 +1,37 @@
+[
+  {
+    "label": "ts_no_shield_s3_t3",
+    "policy": "ckpt",
+    "rules": [],
+    "arctic": [
+      0.7526315789473684,
+      760
+    ],
+    "midlat": [
+      0.8314087759815243,
+      1299
+    ],
+    "equatorial": [
+      0.9221854304635762,
+      604
+    ],
+    "overall": [
+      0.8295155839279008,
+      2663
+    ],
+    "n_attempts": 2663,
+    "satisfaction": 67.578176732934,
+    "satisfaction_arctic": 56.998551593972245,
+    "satisfaction_midlat": 68.42968748514863,
+    "satisfaction_equatorial": 79.06607490650434,
+    "polar_causes": {
+      "no_route": 0.025,
+      "ok": 0.7526315789473684,
+      "late_handover": 0.18552631578947368,
+      "window_exceeded": 0.03684210526315789
+    },
+    "polar_advance_mean": 7.026315789473684,
+    "polar_share_ge12": 0.06184210526315789,
+    "polar_share_ge16": 0.02368421052631579
+  }
+]

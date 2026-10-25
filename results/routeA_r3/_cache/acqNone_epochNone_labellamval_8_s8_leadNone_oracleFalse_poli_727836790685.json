@@ -1,0 +1,37 @@
+[
+  {
+    "label": "lamval_8_s8",
+    "policy": "ckpt",
+    "rules": [],
+    "arctic": [
+      0.8053977272727273,
+      704
+    ],
+    "midlat": [
+      0.8413897280966768,
+      1324
+    ],
+    "equatorial": [
+      0.9264264264264265,
+      666
+    ],
+    "overall": [
+      0.8530066815144766,
+      2694
+    ],
+    "n_attempts": 2690,
+    "satisfaction": 69.01560458820657,
+    "satisfaction_arctic": 62.51676522875642,
+    "satisfaction_midlat": 68.41213236517358,
+    "satisfaction_equatorial": 77.93495211945883,
+    "polar_causes": {
+      "ok": 0.8053977272727273,
+      "late_handover": 0.12926136363636365,
+      "no_route": 0.022727272727272728,
+      "window_exceeded": 0.04261363636363636
+    },
+    "polar_advance_mean": 9.340909090909092,
+    "polar_share_ge12": 0.19460227272727273,
+    "polar_share_ge16": 0.125
+  }
+]

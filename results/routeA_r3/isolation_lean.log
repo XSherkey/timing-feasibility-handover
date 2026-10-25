@@ -1,0 +1,5 @@
+wrote D:\Desktop_Files\论文\1. LLM Satellite Reinforcement Learning\自己写\almond-repro\results\routeA_r3\isolation\summary.json
+A3_randomBest      eval     diff  -0.11 CI [-0.22706135705129782, -0.013286440015630775] p=0.125
+A3_randomBest      lb299.25 diff  +0.03 CI [-0.11344468255612128, 0.140562248995991] p=0.5703125
+A8_constantProbe   eval     diff  -0.02 CI [-0.06153657188478974, 0.0] p=0.5
+A8_constantProbe   lb299.25 diff  +0.00 CI [-0.03920386007238221, 0.04237288135592791] p=1.0

@@ -1,0 +1,81 @@
+{
+  "constraints": [
+    {
+      "id": "k0001",
+      "version": 1,
+      "atoms": [
+        {
+          "field": "latitude_abs_deg",
+          "cmp": ">=",
+          "value": 68
+        },
+        {
+          "field": "handover_advance_s",
+          "cmp": "<=",
+          "value": 16
+        }
+      ],
+      "effect": "min_advance",
+      "magnitude": 16.0,
+      "nl_reading": "All late_handover episodes occur in the arctic belt with handover_advance_s <= 16 s while acquisition took 8.9-16.4 s; enforcing the largest available minimum lead addresses the late-handover mechanism.",
+      "provenance": {
+        "delta_val": 0.22384370015948973,
+        "delta_test": 0.22590705477088077,
+        "discovery_rows": 24,
+        "replay_config": {
+          "validate_episodes": 2,
+          "test_episodes": 2,
+          "traffic_multipliers": [
+            0.5,
+            1.0,
+            2.0
+          ]
+        },
+        "hypothesis": {
+          "if": {
+            "all": [
+              {
+                "field": "latitude_abs_deg",
+                "cmp": ">=",
+                "value": 68
+              },
+              {
+                "field": "handover_advance_s",
+                "cmp": "<=",
+                "value": 16
+              }
+            ]
+          },
+          "then": {
+            "effect": "min_advance",
+            "magnitude": 16
+          },
+          "rationale": "All late_handover episodes occur in the arctic belt with handover_advance_s <= 16 s while acquisition took 8.9-16.4 s; enforcing the largest available minimum lead addresses the late-handover mechanism."
+        }
+      },
+      "confidence": 0.876511757951468,
+      "scope_tags": {
+        "polar": true,
+        "regime": "arctic",
+        "traffic_class": "video",
+        "density": "ref350"
+      },
+      "created_at": 1792725356.8401272,
+      "predecessor": null,
+      "retracted_at": null,
+      "retraction_reason": null,
+      "active": true
+    }
+  ],
+  "history": [
+    {
+      "event": "commit",
+      "id": "k0001",
+      "version": 1,
+      "ts": 1792725356.8401272
+    }
+  ],
+  "versions": {
+    "k0001": 1
+  }
+}

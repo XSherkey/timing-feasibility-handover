@@ -1,0 +1,81 @@
+{
+  "constraints": [
+    {
+      "id": "k0001",
+      "version": 1,
+      "atoms": [
+        {
+          "field": "handover_advance_s",
+          "cmp": "<=",
+          "value": 16
+        },
+        {
+          "field": "latitude_abs_deg",
+          "cmp": ">=",
+          "value": 64
+        }
+      ],
+      "effect": "min_advance",
+      "magnitude": 16.0,
+      "nl_reading": "late_handover episodes occur in high-latitude polar cases when the requested lead is at or below 16 s; raising min_advance to 16 removes the short-lead condition.",
+      "provenance": {
+        "delta_val": 0.23815475844427647,
+        "delta_test": 0.19316651796305853,
+        "discovery_rows": 22,
+        "replay_config": {
+          "validate_episodes": 2,
+          "test_episodes": 2,
+          "traffic_multipliers": [
+            0.5,
+            1.0,
+            2.0
+          ]
+        },
+        "hypothesis": {
+          "if": {
+            "all": [
+              {
+                "field": "handover_advance_s",
+                "cmp": "<=",
+                "value": 16
+              },
+              {
+                "field": "latitude_abs_deg",
+                "cmp": ">=",
+                "value": 64
+              }
+            ]
+          },
+          "then": {
+            "effect": "min_advance",
+            "magnitude": 16
+          },
+          "rationale": "late_handover episodes occur in high-latitude polar cases when the requested lead is at or below 16 s; raising min_advance to 16 removes the short-lead condition."
+        }
+      },
+      "confidence": 0.8219441966050975,
+      "scope_tags": {
+        "polar": true,
+        "regime": "arctic",
+        "traffic_class": "video",
+        "density": "ref350"
+      },
+      "created_at": 1792724852.8928359,
+      "predecessor": null,
+      "retracted_at": null,
+      "retraction_reason": null,
+      "active": true
+    }
+  ],
+  "history": [
+    {
+      "event": "commit",
+      "id": "k0001",
+      "version": 1,
+      "ts": 1792724852.8928359
+    }
+  ],
+  "versions": {
+    "k0001": 1
+  }
+}

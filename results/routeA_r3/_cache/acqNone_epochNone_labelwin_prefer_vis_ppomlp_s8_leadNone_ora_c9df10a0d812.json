@@ -1,0 +1,39 @@
+[
+  {
+    "label": "win_prefer_vis_ppomlp_s8",
+    "policy": "ckpt",
+    "rules": [
+      "prefer_long_visibility:0@latitude_abs_deg>=68"
+    ],
+    "arctic": [
+      0.36794582392776526,
+      443
+    ],
+    "midlat": [
+      0.7825020441537204,
+      1223
+    ],
+    "equatorial": [
+      0.8713355048859935,
+      614
+    ],
+    "overall": [
+      0.7258771929824561,
+      2280
+    ],
+    "n_attempts": 2264,
+    "satisfaction": 40.94311814197143,
+    "satisfaction_arctic": 23.767068559570102,
+    "satisfaction_midlat": 48.9961862246916,
+    "satisfaction_equatorial": 47.34344108394257,
+    "polar_causes": {
+      "late_handover": 0.5981941309255079,
+      "ok": 0.36794582392776526,
+      "no_route": 0.022573363431151242,
+      "window_exceeded": 0.011286681715575621
+    },
+    "polar_advance_mean": 6.948081264108352,
+    "polar_share_ge12": 0.01580135440180587,
+    "polar_share_ge16": 0.004514672686230248
+  }
+]

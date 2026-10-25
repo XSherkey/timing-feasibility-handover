@@ -1,0 +1,36 @@
+[
+  {
+    "label": "seam disabled/PPO-MLP/no shield/s4",
+    "policy": "ckpt",
+    "rules": [],
+    "arctic": [
+      0.9381563593932322,
+      857
+    ],
+    "midlat": [
+      0.9563567362428842,
+      1581
+    ],
+    "equatorial": [
+      0.9092307692307692,
+      650
+    ],
+    "overall": [
+      0.9413860103626943,
+      3088
+    ],
+    "n_attempts": 3088,
+    "satisfaction": 58.42005972113087,
+    "satisfaction_arctic": 56.99049776472476,
+    "satisfaction_midlat": 62.576810020742116,
+    "satisfaction_equatorial": 51.75274844675604,
+    "polar_causes": {
+      "ok": 0.9381563593932322,
+      "late_handover": 0.026837806301050177,
+      "window_exceeded": 0.03500583430571762
+    },
+    "polar_advance_mean": 14.1610268378063,
+    "polar_share_ge12": 0.6872812135355892,
+    "polar_share_ge16": 0.6674445740956826
+  }
+]

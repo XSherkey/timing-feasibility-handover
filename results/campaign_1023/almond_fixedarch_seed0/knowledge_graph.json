@@ -1,0 +1,81 @@
+{
+  "constraints": [
+    {
+      "id": "k0001",
+      "version": 1,
+      "atoms": [
+        {
+          "field": "latitude_abs_deg",
+          "cmp": ">=",
+          "value": 64
+        },
+        {
+          "field": "handover_advance_s",
+          "cmp": "<=",
+          "value": 16
+        }
+      ],
+      "effect": "min_advance",
+      "magnitude": 16.0,
+      "nl_reading": "Arctic late_handover episodes show acquisition times of roughly 8.8-16.6 s while requested handover advance is only 8-16 s; requiring at least 16 s lead removes the lead-shorter-than-acquisition failures.",
+      "provenance": {
+        "delta_val": 0.11955322669608381,
+        "delta_test": 0.055828417306003596,
+        "discovery_rows": 24,
+        "replay_config": {
+          "validate_episodes": 2,
+          "test_episodes": 2,
+          "traffic_multipliers": [
+            0.5,
+            1.0,
+            2.0
+          ]
+        },
+        "hypothesis": {
+          "if": {
+            "all": [
+              {
+                "field": "latitude_abs_deg",
+                "cmp": ">=",
+                "value": 64
+              },
+              {
+                "field": "handover_advance_s",
+                "cmp": "<=",
+                "value": 16
+              }
+            ]
+          },
+          "then": {
+            "effect": "min_advance",
+            "magnitude": 16
+          },
+          "rationale": "Arctic late_handover episodes show acquisition times of roughly 8.8-16.6 s while requested handover advance is only 8-16 s; requiring at least 16 s lead removes the lead-shorter-than-acquisition failures."
+        }
+      },
+      "confidence": 0.5930473621766726,
+      "scope_tags": {
+        "polar": true,
+        "regime": "arctic",
+        "traffic_class": "video",
+        "density": "ref350"
+      },
+      "created_at": 1792724738.3098783,
+      "predecessor": null,
+      "retracted_at": null,
+      "retraction_reason": null,
+      "active": true
+    }
+  ],
+  "history": [
+    {
+      "event": "commit",
+      "id": "k0001",
+      "version": 1,
+      "ts": 1792724738.3098783
+    }
+  ],
+  "versions": {
+    "k0001": 1
+  }
+}

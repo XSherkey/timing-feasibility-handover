@@ -1,0 +1,33 @@
+== shared seed 6
+[shared] seed 6 intent 0 reliability_first  arctic  72.7%  kg_active=0 mags=[]  w=(0.7, 0.1, 0.2)
+[shared] seed 6 intent 1 latency_first      arctic  74.5%  kg_active=0 mags=[]  w=(0.4, 0.55, 0.05)
+[shared] seed 6 intent 2 power_first        arctic  72.0%  kg_active=0 mags=[]  w=(0.4, 0.15, 0.45)
+[shared] seed 6 intent 3 balanced           arctic  76.0%  kg_active=0 mags=[]  w=(0.5, 0.25, 0.25)
+== shared seed 7
+[shared] seed 7 intent 0 reliability_first  arctic  93.4%  kg_active=1 mags=[16.0]  w=(0.7, 0.1, 0.2)
+[shared] seed 7 intent 1 latency_first      arctic  93.4%  kg_active=1 mags=[16.0]  w=(0.42, 0.5, 0.08)
+[shared] seed 7 intent 2 power_first        arctic  93.4%  kg_active=1 mags=[16.0]  w=(0.4, 0.15, 0.45)
+[shared] seed 7 intent 3 balanced           arctic  93.4%  kg_active=1 mags=[16.0]  w=(0.5, 0.25, 0.25)
+== shared seed 8
+[shared] seed 8 intent 0 reliability_first  arctic  91.5%  kg_active=1 mags=[16.0]  w=(0.7, 0.1, 0.2)
+[shared] seed 8 intent 1 latency_first      arctic  91.0%  kg_active=1 mags=[16.0]  w=(0.42, 0.5, 0.08)
+[shared] seed 8 intent 2 power_first        arctic  90.2%  kg_active=1 mags=[16.0]  w=(0.4, 0.15, 0.45)
+[shared] seed 8 intent 3 balanced           arctic  90.4%  kg_active=1 mags=[16.0]  w=(0.5, 0.25, 0.25)
+== shared seed 9
+[shared] seed 9 intent 0 reliability_first  arctic  94.4%  kg_active=1 mags=[16.0]  w=(0.65, 0.1, 0.25)
+[shared] seed 9 intent 1 latency_first      arctic  94.4%  kg_active=1 mags=[16.0]  w=(0.42, 0.5, 0.08)
+[shared] seed 9 intent 2 power_first        arctic  94.4%  kg_active=1 mags=[16.0]  w=(0.4, 0.15, 0.45)
+[shared] seed 9 intent 3 balanced           arctic  94.4%  kg_active=1 mags=[16.0]  w=(0.5, 0.25, 0.25)
+skip fresh 6
+skip fresh 7
+== fresh seed 8
+[fresh] seed 8 intent 0 reliability_first  arctic  91.5%  kg_active=1 mags=[16.0]  w=(0.7, 0.1, 0.2)
+[fresh] seed 8 intent 1 latency_first      arctic  42.0%  kg_active=0 mags=[]  w=(0.42, 0.5, 0.08)
+[fresh] seed 8 intent 2 power_first        arctic  39.2%  kg_active=0 mags=[]  w=(0.4, 0.15, 0.45)
+[fresh] seed 8 intent 3 balanced           arctic  24.2%  kg_active=0 mags=[]  w=(0.5, 0.25, 0.25)
+== fresh seed 9
+[fresh] seed 9 intent 0 reliability_first  arctic  94.4%  kg_active=1 mags=[16.0]  w=(0.65, 0.1, 0.25)
+[fresh] seed 9 intent 1 latency_first      arctic  67.7%  kg_active=0 mags=[]  w=(0.4, 0.55, 0.05)
+[fresh] seed 9 intent 2 power_first        arctic  70.2%  kg_active=0 mags=[]  w=(0.4, 0.15, 0.45)
+[fresh] seed 9 intent 3 balanced           arctic  72.0%  kg_active=0 mags=[]  w=(0.5, 0.25, 0.25)
+DONE

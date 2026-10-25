@@ -1,0 +1,39 @@
+[
+  {
+    "label": "ts_mined_16_s0_t3",
+    "policy": "ckpt",
+    "rules": [
+      "min_advance:16@latitude_abs_deg>=68"
+    ],
+    "arctic": [
+      0.9343434343434344,
+      990
+    ],
+    "midlat": [
+      0.9297082228116711,
+      1508
+    ],
+    "equatorial": [
+      0.9259868421052632,
+      608
+    ],
+    "overall": [
+      0.9304571796522859,
+      3106
+    ],
+    "n_attempts": 3106,
+    "satisfaction": 80.37087661833785,
+    "satisfaction_arctic": 80.53640903197055,
+    "satisfaction_midlat": 80.79706712285937,
+    "satisfaction_equatorial": 79.03325399646593,
+    "polar_causes": {
+      "no_route": 0.022222222222222223,
+      "ok": 0.9343434343434344,
+      "window_exceeded": 0.04242424242424243,
+      "late_handover": 0.00101010101010101
+    },
+    "polar_advance_mean": 16.016161616161614,
+    "polar_share_ge12": 1.0,
+    "polar_share_ge16": 1.0
+  }
+]

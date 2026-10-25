@@ -1,0 +1,39 @@
+[
+  {
+    "label": "gate_G25_test_s1",
+    "policy": "ckpt",
+    "rules": [
+      "prefer_long_visibility:0@latitude_abs_deg>=0"
+    ],
+    "arctic": [
+      0.3463302752293578,
+      436
+    ],
+    "midlat": [
+      0.721830985915493,
+      1136
+    ],
+    "equatorial": [
+      0.9265367316341829,
+      667
+    ],
+    "overall": [
+      0.709691826708352,
+      2239
+    ],
+    "n_attempts": 2215,
+    "satisfaction": 47.56430783921943,
+    "satisfaction_arctic": 19.883939429929328,
+    "satisfaction_midlat": 49.95474509559351,
+    "satisfaction_equatorial": 75.81034961421591,
+    "polar_causes": {
+      "late_handover": 0.6009174311926605,
+      "ok": 0.3463302752293578,
+      "window_exceeded": 0.022935779816513763,
+      "no_route": 0.02981651376146789
+    },
+    "polar_advance_mean": 6.770642201834862,
+    "polar_share_ge12": 0.0,
+    "polar_share_ge16": 0.0
+  }
+]

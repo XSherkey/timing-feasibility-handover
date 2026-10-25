@@ -1,0 +1,10 @@
+Set-Location : 找不到路径“D:\Desktop_Files\璁烘枃\1. LLM Satellite Reinforcement Learning\鑷繁鍐橽almond-repro”，因
+为该路径不存在。
+所在位置 D:\Desktop_Files\论文\1. LLM Satellite Reinforcement Learning\自己写\almond-repro\experiments\run_multi_rest.p
+s1:3 字符: 1
++ Set-Location 'D:\Desktop_Files\璁烘枃\1. LLM Satellite Reinforcement Lea ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\Desktop_File...繁鍐橽almond-repro:String) [Set-Location], ItemNotFoun
+dE    xception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+ 

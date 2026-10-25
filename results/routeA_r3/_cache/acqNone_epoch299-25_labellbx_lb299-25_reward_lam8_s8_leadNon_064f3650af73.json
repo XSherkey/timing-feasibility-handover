@@ -1,0 +1,37 @@
+[
+  {
+    "label": "lbx_lb299.25_reward_lam8_s8",
+    "policy": "ckpt",
+    "rules": [],
+    "arctic": [
+      0.7725258493353028,
+      677
+    ],
+    "midlat": [
+      0.8542750929368029,
+      1345
+    ],
+    "equatorial": [
+      0.859271523178808,
+      604
+    ],
+    "overall": [
+      0.8343488194973343,
+      2626
+    ],
+    "n_attempts": 2624,
+    "satisfaction": 66.45720021627358,
+    "satisfaction_arctic": 57.937039680717426,
+    "satisfaction_midlat": 69.93090477598545,
+    "satisfaction_equatorial": 69.07831243523924,
+    "polar_causes": {
+      "ok": 0.7725258493353028,
+      "late_handover": 0.15657311669128507,
+      "no_route": 0.03692762186115214,
+      "window_exceeded": 0.033973412112259974
+    },
+    "polar_advance_mean": 9.36189069423929,
+    "polar_share_ge12": 0.19054652880354506,
+    "polar_share_ge16": 0.11964549483013294
+  }
+]

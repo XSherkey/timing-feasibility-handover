@@ -1,0 +1,132 @@
+{
+  "n": 20,
+  "human_accept_rate": 0.2,
+  "mechanical_rate": 1.0,
+  "judge_rate": 0.1,
+  "kappa_human_judge": 0.23076923076923064,
+  "kappa_human_mech": 0.0,
+  "kappa_judge_mech": 0.0,
+  "agreement_human_judge": 0.8,
+  "per_item": [
+    {
+      "id": "1",
+      "human": true,
+      "judge": true,
+      "mechanical": true
+    },
+    {
+      "id": "2",
+      "human": true,
+      "judge": false,
+      "mechanical": true
+    },
+    {
+      "id": "3",
+      "human": false,
+      "judge": false,
+      "mechanical": true
+    },
+    {
+      "id": "4",
+      "human": true,
+      "judge": false,
+      "mechanical": true
+    },
+    {
+      "id": "5",
+      "human": true,
+      "judge": false,
+      "mechanical": true
+    },
+    {
+      "id": "6",
+      "human": false,
+      "judge": false,
+      "mechanical": true
+    },
+    {
+      "id": "7",
+      "human": false,
+      "judge": false,
+      "mechanical": true
+    },
+    {
+      "id": "8",
+      "human": false,
+      "judge": false,
+      "mechanical": true
+    },
+    {
+      "id": "9",
+      "human": false,
+      "judge": false,
+      "mechanical": true
+    },
+    {
+      "id": "10",
+      "human": false,
+      "judge": false,
+      "mechanical": true
+    },
+    {
+      "id": "11",
+      "human": false,
+      "judge": false,
+      "mechanical": true
+    },
+    {
+      "id": "12",
+      "human": false,
+      "judge": false,
+      "mechanical": true
+    },
+    {
+      "id": "13",
+      "human": false,
+      "judge": false,
+      "mechanical": true
+    },
+    {
+      "id": "14",
+      "human": false,
+      "judge": false,
+      "mechanical": true
+    },
+    {
+      "id": "15",
+      "human": false,
+      "judge": false,
+      "mechanical": true
+    },
+    {
+      "id": "16",
+      "human": false,
+      "judge": false,
+      "mechanical": true
+    },
+    {
+      "id": "17",
+      "human": false,
+      "judge": false,
+      "mechanical": true
+    },
+    {
+      "id": "18",
+      "human": false,
+      "judge": false,
+      "mechanical": true
+    },
+    {
+      "id": "19",
+      "human": false,
+      "judge": true,
+      "mechanical": true
+    },
+    {
+      "id": "20",
+      "human": false,
+      "judge": false,
+      "mechanical": true
+    }
+  ]
+}

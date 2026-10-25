@@ -1,0 +1,56 @@
+{
+  "iid": [
+    {
+      "n": 250,
+      "width": 8.0
+    },
+    {
+      "n": 500,
+      "width": 2.0
+    },
+    {
+      "n": 1000,
+      "width": 2.0
+    },
+    {
+      "n": 2000,
+      "width": 2.0
+    },
+    {
+      "n": 4000,
+      "width": 2.0
+    },
+    {
+      "n": 8682,
+      "width": 0.0
+    }
+  ],
+  "cluster": [
+    {
+      "n": 250,
+      "width": 0.0
+    },
+    {
+      "n": 500,
+      "width": 4.0
+    },
+    {
+      "n": 1000,
+      "width": 4.0
+    },
+    {
+      "n": 2000,
+      "width": 4.0
+    },
+    {
+      "n": 4000,
+      "width": 8.0
+    },
+    {
+      "n": 8682,
+      "width": 8.0
+    }
+  ],
+  "reps": 1000,
+  "method": "subsample the budget, then bootstrap inside it"
+}

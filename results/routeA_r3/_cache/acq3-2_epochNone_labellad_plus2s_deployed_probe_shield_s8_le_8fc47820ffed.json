@@ -1,0 +1,39 @@
+[
+  {
+    "label": "lad_plus2s_deployed_probe_shield_s8",
+    "policy": "ckpt",
+    "rules": [
+      "min_advance:18@latitude_abs_deg>=68"
+    ],
+    "arctic": [
+      0.9252669039145908,
+      843
+    ],
+    "midlat": [
+      0.5687103594080338,
+      946
+    ],
+    "equatorial": [
+      0.6494623655913978,
+      465
+    ],
+    "overall": [
+      0.7187222715173026,
+      2254
+    ],
+    "n_attempts": 2254,
+    "satisfaction": 50.37908430742715,
+    "satisfaction_arctic": 79.04561155020397,
+    "satisfaction_midlat": 30.622025155889077,
+    "satisfaction_equatorial": 39.86823839765924,
+    "polar_causes": {
+      "ok": 0.9252669039145908,
+      "no_route": 0.020166073546856466,
+      "late_handover": 0.009489916963226572,
+      "window_exceeded": 0.045077105575326216
+    },
+    "polar_advance_mean": 18.0,
+    "polar_share_ge12": 1.0,
+    "polar_share_ge16": 1.0
+  }
+]

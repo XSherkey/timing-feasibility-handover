@@ -1,0 +1,37 @@
+[
+  {
+    "label": "feeder 3 slots/full-system/no shield/s1",
+    "policy": "ckpt",
+    "rules": [],
+    "arctic": [
+      0.2617283950617284,
+      405
+    ],
+    "midlat": [
+      0.7995188452285485,
+      1247
+    ],
+    "equatorial": [
+      0.8894154818325435,
+      633
+    ],
+    "overall": [
+      0.7291028446389497,
+      2285
+    ],
+    "n_attempts": 2285,
+    "satisfaction": 51.98342214361135,
+    "satisfaction_arctic": 19.30123408068689,
+    "satisfaction_midlat": 62.78919143192162,
+    "satisfaction_equatorial": 73.50829950884423,
+    "polar_causes": {
+      "ok": 0.2617283950617284,
+      "late_handover": 0.40987654320987654,
+      "no_route": 0.3135802469135803,
+      "window_exceeded": 0.014814814814814815
+    },
+    "polar_advance_mean": 6.6419753086419755,
+    "polar_share_ge12": 0.0,
+    "polar_share_ge16": 0.0
+  }
+]
