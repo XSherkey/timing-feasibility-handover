@@ -1,0 +1,146 @@
+{
+  "hsr.almond_fixedarch.arctic": {
+    "value": "92.7 ± 1.9 (median 93.4, converged 10/10)",
+    "source": "campaign/almond_fixedarch"
+  },
+  "satisfaction.almond_fixedarch": {
+    "value": "76.1",
+    "source": "campaign/almond_fixedarch"
+  },
+  "hsr.almond.arctic": {
+    "value": "93.6 ± 0.7 (median 93.5, converged 10/10)",
+    "source": "campaign/almond"
+  },
+  "satisfaction.almond": {
+    "value": "77.8",
+    "source": "campaign/almond"
+  },
+  "hsr.eureka.arctic": {
+    "value": "92.7 ± 2.0 (median 93.4, converged 10/10)",
+    "source": "campaign/eureka"
+  },
+  "satisfaction.eureka": {
+    "value": "76.4",
+    "source": "campaign/eureka"
+  },
+  "hsr.no_forensics.arctic": {
+    "value": "65.5 ± 14.1 (median 63.0, converged 2/10)",
+    "source": "campaign/no_forensics"
+  },
+  "satisfaction.no_forensics": {
+    "value": "59.0",
+    "source": "campaign/no_forensics"
+  },
+  "hsr.oracle.arctic": {
+    "value": "71.8 ± 13.6 (median 66.8, converged 3/10)",
+    "source": "campaign/oracle"
+  },
+  "satisfaction.oracle": {
+    "value": "63.5",
+    "source": "campaign/oracle"
+  },
+  "hsr.ppomlp.arctic": {
+    "value": "72.6 ± 16.1 (median 69.9, converged 4/10)",
+    "source": "campaign/ppomlp"
+  },
+  "satisfaction.ppomlp": {
+    "value": "46.9",
+    "source": "campaign/ppomlp"
+  },
+  "hsr.static_llm.arctic": {
+    "value": "71.8 ± 13.6 (median 66.8, converged 3/10)",
+    "source": "campaign/static_llm"
+  },
+  "satisfaction.static_llm": {
+    "value": "63.5",
+    "source": "campaign/static_llm"
+  },
+  "hsr.unseeded_evonas.arctic": {
+    "value": "90.3 ± 9.9 (median 93.5, converged 9/10)",
+    "source": "campaign/unseeded_evonas"
+  },
+  "satisfaction.unseeded_evonas": {
+    "value": "76.3",
+    "source": "campaign/unseeded_evonas"
+  },
+  "latency.ort_cpu_fp32": {
+    "value": "0.045 ms mean / 0.069 ms p99",
+    "source": "latency_benchmark"
+  },
+  "latency.ort_cpu_fp16": {
+    "value": "0.052 / 0.089 ms",
+    "source": "latency_benchmark"
+  },
+  "latency.ort_cpu_int8": {
+    "value": "0.055 / 0.127 ms",
+    "source": "latency_benchmark"
+  },
+  "policy_switch": {
+    "value": "0.175 ms load_state_dict",
+    "source": "latency_benchmark"
+  },
+  "policy_bytes": {
+    "value": "156 KB",
+    "source": "latency_benchmark"
+  },
+  "twin_link_budget": {
+    "value": "0.665 dB p95 (max 0.681 dB)",
+    "source": "fidelity"
+  },
+  "audit.false_acceptance": {
+    "value": "52.5%",
+    "source": "auditor_stress"
+  },
+  "audit.false_rejection": {
+    "value": "0.0%",
+    "source": "auditor_stress"
+  },
+  "impact_mae": {
+    "value": "1.96 ms (target sd 5.19 ms)",
+    "source": "impact_predictor"
+  },
+  "impact_calibration": {
+    "value": "slope -0.09",
+    "source": "impact_predictor"
+  },
+  "impact_flip_rate": {
+    "value": "0%",
+    "source": "impact_predictor"
+  },
+  "llm_stability.forward_translate": {
+    "value": "exact 0%, semantic 88%, schema-fail 0.0%, repair 0.0% (24 calls)",
+    "source": "llm_stability"
+  },
+  "llm_stability.forensic_hypothesis": {
+    "value": "exact 0%, semantic 67%, schema-fail 0.0%, repair 29.2% (24 calls)",
+    "source": "llm_stability"
+  },
+  "llm.backend": {
+    "value": "deepseek-flash via the OpenAI-compatible API (all 80 runs)",
+    "source": "campaign"
+  },
+  "nas.llm_best": {
+    "value": "1.159 ± 0.132 (median 1.18)",
+    "source": "nas/sweep_llm"
+  },
+  "nas.random_best": {
+    "value": "1.175 ± 0.135 (median 1.19)",
+    "source": "nas/sweep_random"
+  },
+  "nas.llm_evals": {
+    "value": "42",
+    "source": "nas/sweep_llm"
+  },
+  "nas.llm_wall": {
+    "value": "195 s per search",
+    "source": "nas/sweep_llm"
+  },
+  "recall.legacy": {
+    "value": "commit 70%, recall 23.3%, discovery rows 336.3",
+    "source": "forensics_recall"
+  },
+  "recall.enriched": {
+    "value": "commit 80%, recall 26.7%, discovery rows 23.6",
+    "source": "forensics_recall"
+  }
+}

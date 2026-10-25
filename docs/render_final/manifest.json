@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "backend": "native",
+  "rasterEngine": "libreoffice",
+  "source": "saved",
+  "inputPath": "D:\\Desktop_Files\\论文\\1. LLM Satellite Reinforcement Learning\\自己写\\From Human Intent to In-Orbit Action\\EAAI\\Revised_Manuscript_实测数据填充版.docx",
+  "sourceSha256": "7275fb3ff9018ec098b352004a6388b4b498d05a11fdd761d50c1be129a20946",
+  "dpi": 110,
+  "pageCount": 20,
+  "images": [
+    {
+      "index": 1,
+      "page": 4,
+      "path": "D:\\almond-repro\\docs\\render_final\\page-0001.png",
+      "width": 935,
+      "height": 1210,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 816,
+        "height": 1056
+      },
+      "byteLength": 112931
+    }
+  ],
+  "missingFonts": [
+    "Courier"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "format": "docx",
+  "verdict": "fail",
+  "checks": [
+    {
+      "id": "package",
+      "status": "pass"
+    },
+    {
+      "id": "contains",
+      "status": "fail",
+      "text": "deepseek-flash"
+    }
+  ],
+  "summary": {
+    "paragraphs": 317,
+    "tables": [
+      {
+        "rows": 8,
+        "columns": 6
+      },
+      {
+        "rows": 8,
+        "columns": 5
+      },
+      {
+        "rows": 15,
+        "columns": 2
+      }
+    ],
+    "sections": [
+      {
+        "page_twips": {
+          "w": "12240",
+          "h": "15840"
+        },
+        "margins_twips": {
+          "top": "1440",
+          "right": "1800",
+          "bottom": "1440",
+          "left": "1800",
+          "header": "720",
+          "footer": "720",
+          "gutter": "0"
+        }
+      }
+    ]
+  }
+}
